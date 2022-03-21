@@ -89,15 +89,15 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          I&apos;m
         </Heading>
         <Paragraph>
           A Frontend Developer majorly focused on ReactJS and its frameworks
           like NextJs & Gatsby. I&apos;m currently employed at{' '}
           <NextLink href="https://www.springworks.in/" scroll={false}>
-            <Link>Springworks</Link>
-          </NextLink>{' '}
-          as a Software Developer Engineer, where my day-to-day work includes
+            <Link>Springworks </Link>
+          </NextLink>
+          as a Software Development Engineer, where my day-to-day work includes
           developing Frontend Applications in React. My technical domain
           includes Angular, Flutter, Saas Sanity CMS, and BaaS Firebase. In the
           early days, I have also worked with Android and have released some
@@ -106,6 +106,7 @@ const Home = () => (
           <NextLink
             href="https://play.google.com/store/apps/details?id=com.techkets_scan_docs"
             scroll={false}
+            target="_blank"
           >
             <Link>Scandocs</Link>
           </NextLink>{' '}
@@ -115,7 +116,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              Checkout my work!
             </Button>
           </NextLink>
         </Box>
@@ -134,6 +135,14 @@ const Home = () => (
           Completed Schooling
         </BioSection>
         <BioSection>
+          <BioYear>2017</BioYear>
+          Took Engineering 💻
+        </BioSection>
+        <BioSection>
+          <BioYear>Oct 2020 - Present</BioYear>
+          Working as a Software Developer Engineer @ Springworks
+        </BioSection>
+        <BioSection>
           <BioYear>2021</BioYear>
           Graduated in B.Tech CSE from{' '}
           <NextLink
@@ -143,10 +152,6 @@ const Home = () => (
           >
             <Link>GLA University</Link>
           </NextLink>
-        </BioSection>
-        <BioSection>
-          <BioYear>Oct 2020 to present</BioYear>
-          Working as a Software Developer Engineer @ Springworks
         </BioSection>
       </Section>
 
@@ -158,6 +163,24 @@ const Home = () => (
           Taking a long bike ride, spicy food, exploring new things, and
           adventure.
         </Paragraph>
+      </Section>
+
+      <Section>
+        <Heading as="h3" variant="section-title">
+          Technical Domain 🛠
+        </Heading>
+        <List>
+          <ListItem>
+            <Heading as={'h5'} size="sm">
+              React💗 / Angular / NextJS / Gatsby / Sanity
+            </Heading>
+          </ListItem>
+          <ListItem>
+            <Heading as={'h5'} size="sm">
+              Javascript💗 / Java🧡 / Dart
+            </Heading>
+          </ListItem>
+        </List>
       </Section>
 
       <Section delay={0.3}>
