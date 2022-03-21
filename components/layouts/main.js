@@ -13,7 +13,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Kanahaiya's homepage" />
+        <meta name="description" content="Kanahaiya's Homepage" />
         <meta name="author" content="Kanahaiya" />
         <meta name="author" content="theHandyHunk" />
         <title>@theHandyHunk</title>
@@ -21,7 +21,13 @@ const Main = ({ children, router }) => {
 
       <NavBar path={router.asPath} />
 
-      <Container maxW="container.md" pt={14}>
+      <Container
+        display="flex"
+        flexDir="column"
+        maxW="container.md"
+        height="100%"
+        pt={14}
+      >
         {/* <LazyVoxelDog /> */}
 
         {children}
