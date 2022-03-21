@@ -9,8 +9,7 @@ import {
   List,
   ListItem,
   Tooltip,
-  useColorModeValue,
-  Text
+  useColorModeValue
 } from '@chakra-ui/react';
 import Image from 'next/image';
 import NextLink from 'next/link';
@@ -90,7 +89,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          I'm
+          I&apos;m
         </Heading>
         <Paragraph>
           A Frontend Developer majorly focused on ReactJS and its frameworks

@@ -1,8 +1,7 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Title, WorkImage, Meta } from '../../components/work';
-import P from '../../components/paragraph';
+import { Badge, Container, List, ListItem } from '@chakra-ui/react';
 import Layout from '../../components/layouts/article';
+import P from '../../components/paragraph';
+import { Meta, Title, WorkImage } from '../../components/work';
 
 const Mariokart = () => (
   <Layout title="Mariokart">
