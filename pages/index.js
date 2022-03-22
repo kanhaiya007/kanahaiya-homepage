@@ -92,7 +92,7 @@ const Home = () => (
           I&apos;m
         </Heading>
         <Paragraph>
-          A Frontend Developer majorly focused on ReactJS and its frameworks
+          A Frontend Developer, focused on ReactJS and its frameworks
           like NextJs & Gatsby. I&apos;m currently employed at{' '}
           <NextLink href="https://www.springworks.in/" scroll={false}>
             <Link>Springworks </Link>
