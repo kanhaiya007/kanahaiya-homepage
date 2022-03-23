@@ -92,31 +92,31 @@ const Home = () => (
           I&apos;m
         </Heading>
         <Paragraph>
-          A Frontend Developer, focused on ReactJS and its frameworks
-          like NextJs & Gatsby. I&apos;m currently employed at{' '}
-          <NextLink href="https://www.springworks.in/" scroll={false}>
-            <Link>Springworks </Link>
-          </NextLink>
+          A Frontend Developer, focused on ReactJS and its frameworks like
+          NextJs & Gatsby. I&apos;m currently employed at{' '}
+          <Link href="https://www.springworks.in" target="_blank">
+            Springworks
+          </Link>{' '}
           as a Software Development Engineer, where my day-to-day work includes
           developing Frontend Applications in React. My technical domain
           includes Angular, Flutter, Saas Sanity CMS, and BaaS Firebase. In the
           early days, I have also worked with Android and have released some
           private Apps for Local E-commerce firms. I have also created a
           document scanner{' '}
-          <NextLink
+          <Link
             href="https://play.google.com/store/apps/details?id=com.techkets_scan_docs"
             scroll={false}
             target="_blank"
           >
-            <Link>Scandocs</Link>
-          </NextLink>{' '}
+            Scandocs
+          </Link>{' '}
           with Flutter and released it on Playstore for free, which got nearly
           1k+ downloads.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Checkout my work!
+              Checkout my work
             </Button>
           </NextLink>
         </Box>
@@ -145,13 +145,9 @@ const Home = () => (
         <BioSection>
           <BioYear>2021</BioYear>
           Graduated in B.Tech CSE from{' '}
-          <NextLink
-            href="https://www.gla.ac.in/"
-            scroll={false}
-            target="_blank"
-          >
-            <Link>GLA University</Link>
-          </NextLink>
+          <Link href="https://www.gla.ac.in/" scroll={false} target="_blank">
+            GLA University
+          </Link>
         </BioSection>
       </Section>
 
