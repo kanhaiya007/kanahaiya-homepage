@@ -14,7 +14,7 @@ import {
   IconButton,
   useColorModeValue
 } from '@chakra-ui/react';
-import { HamburgerIcon } from '@chakra-ui/icons';
+import { DownloadIcon, HamburgerIcon } from '@chakra-ui/icons';
 import ThemeToggleButton from './theme-toggle-button';
 import { IoLogoGithub } from 'react-icons/io5';
 
@@ -89,6 +89,12 @@ const Navbar = props => {
             <IoLogoGithub />
             Source
           </LinkItem>
+          <LinkItem
+            href="https://drive.google.com/file/d/1NvjVOEqOzEnshaqkHAS_pRS8n4FlH3YI/view?usp=sharing"
+            target="_blank"
+          >
+            <DownloadIcon /> Resume
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
@@ -112,6 +118,14 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
+                <MenuItem>
+                  <NextLink
+                    href="https://drive.google.com/file/d/1NvjVOEqOzEnshaqkHAS_pRS8n4FlH3YI/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Resume
+                  </NextLink>
+                </MenuItem>
                 <MenuItem
                   as={Link}
                   href="https://github.com/kanhaiya007/kanahaiya-homepage"
