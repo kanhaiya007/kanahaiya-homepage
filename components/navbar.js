@@ -120,7 +120,7 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem>
                   <NextLink
-                    href="https://drive.google.com/file/d/1NvjVOEqOzEnshaqkHAS_pRS8n4FlH3YI/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1mpn4gRfGmZ9Ky37kbIuQSXWhOh7OcS8I/view?usp=sharing"
                     target="_blank"
                   >
                     Resume
