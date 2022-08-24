@@ -90,7 +90,7 @@ const Navbar = props => {
             Source
           </LinkItem>
           <LinkItem
-            href="https://drive.google.com/file/d/1UcmpI2JsEfhES2Ghu1tytwWhqAtL-0QD/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GyWYOl3HBuGg_QppuG3q6q1KSGCn5mWb/view?usp=sharing"
             target="_blank"
           >
             <DownloadIcon /> Resume
