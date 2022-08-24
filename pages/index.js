@@ -94,15 +94,15 @@ const Home = () => (
         <Paragraph>
           A Frontend Developer, focused on ReactJS and its frameworks like
           NextJs & Gatsby. I&apos;m currently employed at{' '}
-          <Link href="https://www.springworks.in" target="_blank">
-            Springworks
+          <Link href="https://www.ximkart.com/" target="_blank">
+            Ximkart
           </Link>{' '}
-          as a Software Development Engineer, where my day-to-day work includes
-          developing Frontend Applications in React. My technical domain
-          includes Angular, Flutter, Saas Sanity CMS, and BaaS Firebase. In the
-          early days, I have also worked with Android and have released some
-          private Apps for Local E-commerce firms. I have also created a
-          document scanner{' '}
+          as a Software Development Engineer - Frontend, where my day-to-day
+          work includes developing Frontend Applications and internal modules in
+          React. My technical domain includes Angular, Flutter, Saas Sanity CMS,
+          and BaaS Firebase. In my early days, I have also worked with Android
+          and have released some private Apps for Local E-commerce firms. I have
+          also created a document scanner{' '}
           <Link
             href="https://play.google.com/store/apps/details?id=com.techkets_scan_docs"
             scroll={false}
@@ -139,14 +139,28 @@ const Home = () => (
           Took Engineering 💻
         </BioSection>
         <BioSection>
-          <BioYear>Oct 2020 - Present</BioYear>
-          Working as a Software Developer Engineer @ Springworks
-        </BioSection>
-        <BioSection>
           <BioYear>2021</BioYear>
           Graduated in B.Tech CSE from{' '}
           <Link href="https://www.gla.ac.in/" scroll={false} target="_blank">
             GLA University
+          </Link>
+        </BioSection>
+        <BioSection>
+          <BioYear>Oct 2020 - Aug 2022</BioYear>
+          SDE @{' '}
+          <Link
+            href="https://www.springworks.in/"
+            scroll={false}
+            target="_blank"
+          >
+            Springworks
+          </Link>
+        </BioSection>
+        <BioSection>
+          <BioYear>Aug 2022 - Present</BioYear>
+          SDE - Frontend @{' '}
+          <Link href="https://www.ximkart.com/" scroll={false} target="_blank">
+            Ximkart
           </Link>
         </BioSection>
       </Section>
